@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            DB | APPAREL - Products
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" rel="stylesheet" >
+    </head>
+    <body>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="images/logo icon.png" width="100px" height="100%">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="product.html">PORTFOLIO</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/menu.png" class="menu-icon" 
+                    onclick="menutoggle()">
+                </div>
+            </div>
+
+        <!------------- FEATURED PRODUCTS ------------->
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2> PREVIOUS PROJECTS </h2>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/images/CONTACT US.jpg" alt="">
+                    <h4>De Lasalle Library</h4>
+                </div>
+                <div class="col-4">
+                    <img src="images/images/7.jpg" alt="">
+                    <h4>Brise-Soliel</h4>
+                </div>
+                <div class="col-4">
+                    <img src="images/images/CONTACT US.jpg" alt="">
+                    <h4>Brise-Soliel</h4>
+                </div>
+                <div class="col-4">
+                    <img src="images/images/CONTACT US.jpg" alt="">
+                    <h4>De Lasalle Library</h4>
+                </div>
+                <div class="col-4">
+                    <img src="images/images/CONTACT US.jpg" alt="">
+                    <h4>De Lasalle Library</h4>
+                </div>
+                <div class="col-4">
+                    <img src="images/images/CONTACT US.jpg" alt="">
+                    <h4>De Lasalle Library</h4>
+                </div>
+                <div class="col-4">
+                    <img src="images/images/CONTACT US.jpg" alt="">
+                    <h4>De Lasalle Library</h4>
+                </div>
+            </div>
+            <a href="" class="btn">EMAIL US! &#x261B;</a>
+        </div>
+
+        <!--------- footer --------->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Order Online</h3>
+                        <p>Contact us on Facebook and Twitter</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/db_logo.png" alt="">
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/profile.php?id=100078020972125" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com/aguarilles2d" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/dabzk1e/" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Offers</h3>
+                        <ul>
+                            <li>Discount</li>
+                            <li>New Arrivals</li>
+                            <li>Upcoming Tees</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----js for toggle menu---->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight = "200px";
+                } else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>

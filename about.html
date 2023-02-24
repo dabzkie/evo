@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            DB | APPAREL - About
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" rel="stylesheet" >
+    </head>
+    <body>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="images/logo icon.png" width="100px" height="100%">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="product.html">PORTFOLIO</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/menu.png" class="menu-icon" 
+                    onclick="menutoggle()">
+                </div>
+            </div>
+
+        <div class="small-container">
+            <div class="row">
+                <h1> ABOUT US </h1>
+            </div>
+            <div class="row">
+                <h2> MISSION </h2>
+                <p> 
+                    To provide the highest quality services and after sales support to all our clients while promoting the 
+                    company’s products and services. EVO1 CONSTRUCTION SERVICES aims to help contribute to the 
+                    public by charity works and be a good corporate citizen.
+                </p> 
+                <h2>
+                    VISSION
+                </h2>
+                <p>
+                    To be the top leading and premium quality supplier and installer of strip ceiling and louvers and 
+                    Aluminum Composite Panels in the    Philippines and also build a company that will provide technical 
+                    services in the line of construction industry, in this way, our client’s demand will be served directly in 
+                    job well done.
+                </p>
+            </div>
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+        <!--------- footer --------->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Order Online</h3>
+                        <p>Contact us on Facebook and Twitter</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/db_logo.png" alt="">
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/profile.php?id=100078020972125" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com/aguarilles2d" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/dabzk1e/" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Offers</h3>
+                        <ul>
+                            <li>Discount</li>
+                            <li>New Arrivals</li>
+                            <li>Upcoming Tees</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----js for toggle menu---->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight = "200px";
+                } else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
